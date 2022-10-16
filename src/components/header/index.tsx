@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import { HeaderContainer } from "./styles";
 
-import logo from "../../../public/assets/react.svg";
+import logo from "../../assets/react.svg";
 
 export const HeaderComponent = () => {
   return (
