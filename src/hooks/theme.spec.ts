@@ -1,4 +1,4 @@
-import { act, renderHook } from "@testing-library/react-hooks";
+import { act, renderHook } from "@testing-library/react";
 import { ThemeProvider } from "../providers/theme";
 import { ThemeChoice } from "../services/theme/contract/theme";
 import { lightThemeColors } from "../themes/light";
