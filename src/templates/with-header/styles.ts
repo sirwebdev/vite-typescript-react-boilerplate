@@ -15,6 +15,7 @@ export const WithHeaderTemplateContainer = styled.section`
     position: relative;
 
     width: 100%;
+    height: 100%;
   }
 
   @media (max-width: 70rem) {

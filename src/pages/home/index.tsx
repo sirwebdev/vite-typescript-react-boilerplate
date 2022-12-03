@@ -1,9 +1,15 @@
+import { FC } from "react";
+
 import { HomePageContainer } from "./styles";
 
-export const HomePage = () => {
+export const HomePage: FC = () => {
   return (
     <HomePageContainer>
-      <h1>Home Page</h1>
+      <section>
+        <h1>Vite + Typescript + Vitest</h1>
+
+        <small>Edit src/app/home to change something</small>
+      </section>
     </HomePageContainer>
   );
 };
